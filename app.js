@@ -1,5 +1,8 @@
+const container = document.querySelector('.print-name');
+
 const printName = (name) => {
+  container.innerHTML = name;
   console.log(name)
 };
 
-printName('Raheem Segun Ibrahim');
+window.addEventListener('DOMContentLoaded', printName('Raheem Segun Ibrahim'));

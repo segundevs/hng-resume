@@ -163,6 +163,13 @@ h2 {
   display: none;
 }
 
+.print-name {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #325283;
+  font-weight: 900;
+}
+
 @media only screen and (max-width: 786px) {
   body {
     line-height: 32px;
